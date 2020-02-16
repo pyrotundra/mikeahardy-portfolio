@@ -1,4 +1,6 @@
 # Redirects from what the browser requests to what we serve
 /home    /index.html   200
 /about    /about.html   200
+/work    /work.html   200
+/contact    /contact.html   200
  
