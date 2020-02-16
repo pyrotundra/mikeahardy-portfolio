@@ -1,5 +1,3 @@
 # Redirects from what the browser requests to what we serve
-/index.html     /home
-/about.html     /about
-/work.html      /work
-/contact.html   /contact   
+/home    /index.html    200
+ 
