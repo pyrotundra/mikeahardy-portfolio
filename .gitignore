@@ -2,7 +2,8 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-
+/dist/.DS_Store
+/dist/img/DS_Store
 # Icon must end with two \r
 Icon
 
