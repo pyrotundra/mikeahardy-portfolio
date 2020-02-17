@@ -1,4 +1,6 @@
 # Redirects from what the browser requests to what we serve
+# structure = /(PAGENAME)  /(CONTENTLOCATION)  200 (code letting netlify know how to redirect)
+
 /home    /index.html   200
 /about    /about.html   200
 /work    /work.html   200
