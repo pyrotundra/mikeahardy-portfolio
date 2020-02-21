@@ -7,3 +7,12 @@ $dark-color: #4b4453;
 $highlight-color: #00c0a3;
 $other-color: #00896f;
 $bg-image: url("../img/header.jpg");
+
+// * Set Text Color
+@function set-text-color($color) {
+	@if (lightness($color) > 50) {
+		@return #000;
+	} @else {
+		@return #fff;
+	}
+}
